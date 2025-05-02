@@ -1,0 +1,67 @@
+# depslib dependency file v1.0
+1746216069 source:d:\poo\proiect2\rym3\src\exceptii.cpp
+
+1746216452 source:d:\poo\proiect2\rym3\src\album.cpp
+	"Album.h"
+	<iostream>
+
+1746217153 d:\poo\proiect2\rym3\include\album.h
+	<string>
+	<vector>
+	<memory>
+	"Melodie.h"
+
+1746217153 d:\poo\proiect2\rym3\include\melodie.h
+	<string>
+	<vector>
+	<memory>
+	"Recenzie.h"
+
+1746217154 d:\poo\proiect2\rym3\include\recenzie.h
+	<string>
+	<memory>
+	<iostream>
+	"ObiectMuzical.h"
+
+1746217154 d:\poo\proiect2\rym3\include\obiectmuzical.h
+	<memory>
+	<string>
+	<iostream>
+
+1746216426 source:d:\poo\proiect2\rym3\src\artist.cpp
+	"Artist.h"
+	<iostream>
+
+1746217152 d:\poo\proiect2\rym3\include\artist.h
+	<string>
+	<vector>
+	<memory>
+	"Album.h"
+
+1746216158 source:d:\poo\proiect2\rym3\src\melodie.cpp
+	"Melodie.h"
+	<iostream>
+
+1746216689 source:d:\poo\proiect2\rym3\main.cpp
+	<iostream>
+	<fstream>
+	<vector>
+	<memory>
+	<string>
+	"Artist.h"
+	"Album.h"
+	"Melodie.h"
+	"Recenzie.h"
+	"Exceptii.h"
+
+1746217154 d:\poo\proiect2\rym3\include\exceptii.h
+	<exception>
+	<string>
+
+1746216169 source:d:\poo\proiect2\rym3\src\obiectmuzical.cpp
+
+1746216184 source:d:\poo\proiect2\rym3\src\recenzie.cpp
+	"Recenzie.h"
+	"Exceptii.h"
+	<stdexcept>
+
