@@ -1,7 +1,8 @@
 #include "Album.h"
 #include <iostream>
 
-Album::Album(const std::string& titlu) : titlu(titlu) {}
+Album::Album(const std::string& titlu, int anLansare)
+    : titlu(titlu), anLansare(anLansare) {}
 
 void Album::adaugaMelodie(std::shared_ptr<Melodie> melodie) {
     melodii.push_back(melodie);
@@ -24,4 +25,8 @@ const std::vector<std::shared_ptr<Melodie>>& Album::getMelodii() const {
 
 std::string Album::getTitlu() const {
     return titlu;
+}
+
+int Album::getAnLansare() const {
+    return anLansare;
 }
