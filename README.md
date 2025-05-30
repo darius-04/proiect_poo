@@ -10,6 +10,8 @@ Exceptii MuzicaException, NotaInvalidaException, FisierInvalidException
 
 Utilizarea template in clasa Recenzie ce ofera flexibilitate tipului nota( int, double, float) si in clasa SortStrategy pentru a oferi posibilitatea sortarii a tuturor mostenirilor de tip ObiectMuzical( Artist, Album, Melodie).
 
+De asemenea, in clasa SortStrategy este utilizate o functie virtuala pentru sortare pentru a generaliza sortarea pentru orice obiect muzical.
+
 Design patternurile folosite sunt Factory pentru crearea mai generica o obiectelor muzicale si Strategy, implementand o strategie de sortare pe mai multe criterii (alfabetica, dupa nota, dupa numarul de melodii) pentru a generaliza si a facilita crearea unor topuri.
 
 Factory-ul este utilizat in main pentru a crea obiecte de tipul Melodie si Recenzie. Strategiile de sortare sunt utilizate in cadrul clasei Topuri pentru realizarea a ierarhiilor de melodii, artisti sau albume si in clasa Artist pentru a sorta albumele unui artist in functie de nota.
